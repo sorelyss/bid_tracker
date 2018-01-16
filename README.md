@@ -4,10 +4,10 @@ It searches the product using [Selenium](http://selenium-python.readthedocs.io/)
 
 ### TODO:
 - Schedule the scripts (https://blogs.esri.com/esri/arcgis/2013/07/30/scheduling-a-scrip/).
-- Make easier the product price search. Read [this](https://en.wikipedia.org/wiki/Comparison_shopping_website)
+- Make easier the product price search. Read [this](https://en.wikipedia.org/wiki/Comparison_shopping_website).
 
 ### Disclaimer
 <img src="https://media.giphy.com/media/xUA7aWHRAdxHmOD0iY/source.gif" width="30%" height="30%">
 
-Don't take this repo too serious 😅. I just join lines of the docs as fast as possible because I need a new phone and don't have time to pay attention to the market :3
+Don't take this repo too serious 😅. I just joined lines of the docs as fast as possible because I need a new phone and don't have time to pay attention to the market :3
 P.D. The guy in the gif is Jacob Collier 🎵👌👌
