@@ -1,5 +1,5 @@
 # Sale tracker
-Tired of pass up an offer? This scripts can do the hard work searching the best deal of a product at different stores. 
+Tired of pass up an offer? These scripts can do the hard work searching the best deal of a product at different stores. 
 It searches the product using [Selenium](http://selenium-python.readthedocs.io/) and notifies you in Windows using [Windows 10 Toast Notifications](https://github.com/jithurjacob/Windows-10-Toast-Notifications)
 
 ### TODO:
