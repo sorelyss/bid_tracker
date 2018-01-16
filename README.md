@@ -10,4 +10,5 @@ It searches the product using [Selenium](http://selenium-python.readthedocs.io/)
 <img src="https://media.giphy.com/media/xUA7aWHRAdxHmOD0iY/source.gif" width="30%" height="30%">
 
 Don't take this repo too serious 😅. I just joined lines of the docs as fast as possible because I need a new phone and don't have time to pay attention to the market :3
-P.D. The guy in the gif is Jacob Collier 🎵👌👌
+
+P.S. The guy in the gif is Jacob Collier 🎵👌👌
