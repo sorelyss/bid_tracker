@@ -14,7 +14,9 @@ elem.send_keys("moto g5s plus")
 elem.send_keys(Keys.RETURN)
 assert "No results found." not in driver.page_source
 dorado = driver.find_element_by_partial_link_text("Dorado")
-exito_price = dorado.find_element_by_class_name("price")
+exito_price = dorado.find_element_by_class_name("price").text
+exito_price = float(exito_price.replace(',',''))
+print('Exito:', exito_price)
 
 # Falabella search
 driver.get("https://www.falabella.com.co/falabella-co/")
@@ -27,7 +29,8 @@ assert "No results found." not in driver.page_source
 dorado = driver.find_element_by_partial_link_text("Dorado")
 dorado.click()
 falabella_price = driver.find_element_by_class_name("fb-product-sets__product-price")
-falabella_price = re.findall(r'\d+\.\d+', falabella_price.text)
+falabella_price = float(re.findall(r'\d+\.\d+', falabella_price.text))
+print('Falabella:', falabella_price)
 
 if exito_price<900.000:
     toaster.show_toast("Heyy!!!", "Exito lowered the price: "+ str(exito_price))
